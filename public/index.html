@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Licita Lance Certo - Plataforma para acompanhar oportunidades em licitações.">
+  <title>Licita Lance Certo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+      color: #172033;
+    }
+
+    header {
+      background: #123b70;
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 25px;
+    }
+
+    header span {
+      color: #79d8c4;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 75px 20px;
+      background: linear-gradient(135deg, #123b70, #176b87);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: clamp(30px, 5vw, 48px);
+      margin: 0 0 18px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #79d8c4;
+      color: #123b38;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 14px 24px;
+      border-radius: 8px;
+    }
+
+    main {
+      max-width: 1050px;
+      margin: 45px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 18px #17203312;
+    }
+
+    .card h3 {
+      color: #123b70;
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #586579;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: #e5ebf3;
+      color: #586579;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Licita <span>Lance Certo</span></h1>
+    <div>Seu próximo passo nas licitações</div>
+  </header>
+
+  <section class="hero">
+    <h2>Encontre oportunidades. Prepare-se para licitar.</h2>
+    <p>
+      Um espaço para organizar informações, acompanhar oportunidades
+      e facilitar sua jornada no mundo das licitações.
+    </p>
+    <a class="button" href="#recursos">Conheça a plataforma</a>
+  </section>
+
+  <main id="recursos">
+    <div class="section-title">
+      <h2>O que você encontrará aqui</h2>
+      <p>Estamos preparando a plataforma para você.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Oportunidades</h3>
+        <p>Uma área para organizar e consultar oportunidades de licitação.</p>
+      </article>
+
+      <article class="card">
+        <h3>Organização</h3>
+        <p>Informações reunidas para ajudar no acompanhamento dos processos.</p>
+      </article>
+
+      <article class="card">
+        <h3>Acesso à plataforma</h3>
+        <p>Uma estrutura preparada para receber futuras funcionalidades e login.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Licita Lance Certo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
