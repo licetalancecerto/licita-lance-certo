@@ -1,0 +1,17 @@
+Logotipos oficiais das instituições
+
+Aqui você pode colocar o logotipo OFICIAL de cada instituição. Se o arquivo existir, ele aparece no lugar do selo com as iniciais.
+Se não existir, o selo com as iniciais continua aparecendo. Nada quebra.
+
+Nomes dos arquivos (SVG é o melhor; PNG também funciona):
+  antecipagov.svg   comprasgov.svg   pncp.svg      sicaf.svg     tesouro.svg   obrasgov.svg
+  ibge.svg          receita.svg      pronampe.svg  openfinance.svg  pluggy.svg  inter.svg
+  bb.svg            itau.svg         bradesco.svg  santander.svg   sicoob.svg   caixa.svg
+  brasilapi.svg     focusnfe.svg
+  petronect.svg     vale.svg         suzano.svg    tetrapak.svg  mercadoeletronico.svg
+  ariba.svg         coupa.svg        bionexo.svg
+
+Depois de colocar os arquivos, rode: npm run build:web
+
+Atenção: os logotipos são marcas das próprias instituições. Baixe-os nas páginas oficiais de identidade visual de cada uma
+e siga as regras de uso de marca delas. Eu não incluí nenhum logotipo de terceiros neste projeto.
